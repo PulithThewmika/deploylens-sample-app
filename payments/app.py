@@ -90,3 +90,5 @@ async def healthz():
 @app.get("/payments")
 async def process_payment():
     return {"status": "processed", "amount": 42.00, "currency": "USD"}
+
+# EPIC-018: rebuild under deploylens-sample-app-payments image prefix
