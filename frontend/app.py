@@ -89,7 +89,7 @@ async def healthz():
     return {"status": "ok"}
 
 
-# EPIC-018 verification: forces a CI run to prove the standalone repo's
+# EPIC-018 verification: retry after fixing GHCR image prefix (7bca34f).
 # build -> tag-bump -> ArgoCD sync -> deployment-record pipeline works.
 
 
