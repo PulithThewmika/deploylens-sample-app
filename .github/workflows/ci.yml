@@ -20,7 +20,7 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_PREFIX: ghcr.io/puliththewmika/deploylens
+  IMAGE_PREFIX: ghcr.io/puliththewmika/deploylens-sample-app
 
 jobs:
   detect-changes:
