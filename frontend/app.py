@@ -89,6 +89,10 @@ async def healthz():
     return {"status": "ok"}
 
 
+# EPIC-018 verification: forces a CI run to prove the standalone repo's
+# build -> tag-bump -> ArgoCD sync -> deployment-record pipeline works.
+
+
 @app.get("/")
 async def index():
     async with httpx.AsyncClient(timeout=5.0) as client:
