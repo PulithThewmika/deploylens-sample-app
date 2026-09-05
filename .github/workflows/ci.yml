@@ -17,6 +17,7 @@ on:
 permissions:
   contents: write
   packages: write
+  statuses: write
 
 env:
   REGISTRY: ghcr.io
