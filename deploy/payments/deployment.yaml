@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: ghcr.io/puliththewmika/deploylens-sample-app-payments:f3a793d
+          image: ghcr.io/puliththewmika/deploylens-sample-app-payments:e2edeg1
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
@@ -26,7 +26,7 @@ spec:
             - name: SERVICE_NAME
               value: payments
             - name: ERROR_RATE
-              value: "0"
+              value: "0.3"
             - name: LATENCY_MS
               value: "0"
           resources:
