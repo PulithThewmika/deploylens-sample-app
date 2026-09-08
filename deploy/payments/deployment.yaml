@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: ghcr.io/puliththewmika/deploylens-sample-app-payments:138e396
+          image: ghcr.io/puliththewmika/deploylens-sample-app-payments:1624765
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
