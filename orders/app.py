@@ -11,7 +11,7 @@ from starlette.middleware.base import BaseHTTPMiddleware
 
 SERVICE_NAME = os.getenv("SERVICE_NAME", "orders")
 ERROR_RATE = float(os.getenv("ERROR_RATE", "0"))
-LATENCY_MS = int(os.getenv("LATENCY_MS", "0"))
+LATENCY_MS = int(os.getenv("LATENCY_MS", "800"))
 PAYMENTS_URL = os.getenv("PAYMENTS_URL", "http://payments:8000")
 
 app = FastAPI(title="Orders Service")

@@ -10,7 +10,7 @@ from prometheus_fastapi_instrumentator.metrics import Info
 from starlette.middleware.base import BaseHTTPMiddleware
 
 SERVICE_NAME = os.getenv("SERVICE_NAME", "frontend")
-ERROR_RATE = float(os.getenv("ERROR_RATE", "0"))
+ERROR_RATE = float(os.getenv("ERROR_RATE", "0.5"))
 LATENCY_MS = int(os.getenv("LATENCY_MS", "0"))
 ORDERS_URL = os.getenv("ORDERS_URL", "http://orders:8000")
 

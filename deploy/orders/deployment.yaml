@@ -25,10 +25,6 @@ spec:
           env:
             - name: SERVICE_NAME
               value: orders
-            - name: ERROR_RATE
-              value: "0"
-            - name: LATENCY_MS
-              value: "0"
             - name: PAYMENTS_URL
               value: http://payments:8000
           resources:
