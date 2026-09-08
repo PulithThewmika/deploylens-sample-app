@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: ghcr.io/puliththewmika/deploylens-sample-app-frontend:d8f0903
+          image: ghcr.io/puliththewmika/deploylens-sample-app-frontend:728c78b
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
