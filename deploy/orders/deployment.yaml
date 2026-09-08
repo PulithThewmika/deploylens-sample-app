@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: ghcr.io/puliththewmika/deploylens-sample-app-orders:728c78b
+          image: ghcr.io/puliththewmika/deploylens-sample-app-orders:ec21cdb
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
